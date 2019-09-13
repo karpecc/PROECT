@@ -18,6 +18,12 @@ namespace ConsoleApp10
             Console.WriteLine("Enter your ott:");
             last = Console.ReadLine();
             Console.WriteLine("Hello, {0} {1}" , first, last);
+            string name, fam;
+            Console.WriteLine("Enter yor name:");
+            name= Console.ReadLine();
+            Console.WriteLine("Enter yor name:");
+            fam = Console.ReadLine();
+            Console.WriteLine("Hello {0}" , name, fam);
             Console.ReadLine(); 
         }
     }
