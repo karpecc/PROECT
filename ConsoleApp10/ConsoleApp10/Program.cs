@@ -15,6 +15,8 @@ namespace ConsoleApp10
             first= Console.ReadLine();
             Console.WriteLine("Enter your name:");
             last = Console.ReadLine();
+            Console.WriteLine("Enter your ott:");
+            last = Console.ReadLine();
             Console.WriteLine("Hello, {0} {1}" , first, last);
             Console.ReadLine(); 
         }
