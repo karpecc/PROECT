@@ -10,10 +10,12 @@ namespace ConsoleApp10
     {
         static void Main(string[] args)
         {
-            string name;
+            string name, fam;
             Console.WriteLine("Enter yor name:");
             name= Console.ReadLine();
-            Console.WriteLine("Hello {0}" , name);
+            Console.WriteLine("Enter yor name:");
+            fam = Console.ReadLine();
+            Console.WriteLine("Hello {0}" , name, fam);
             Console.ReadLine(); 
         }
     }
