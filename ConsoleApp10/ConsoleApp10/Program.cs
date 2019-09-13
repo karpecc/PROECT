@@ -10,7 +10,10 @@ namespace ConsoleApp10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Word!");
+            string name;
+            Console.WriteLine("Enter yor name:");
+            name= Console.ReadLine();
+            Console.WriteLine("Hello {0}" , name);
             Console.ReadLine(); 
         }
     }
